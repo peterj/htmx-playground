@@ -1,0 +1,6 @@
+<div><label>First Name</label>: {{contact.firstName}}</div>
+<div><label>Last Name</label>: {{contact.lastName}}</div>
+<div><label>Email</label>: {{contact.email}}</div>
+<button hx-get="/contact/{{ contact.id }}">
+  Click To Edit
+</button>

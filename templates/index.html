@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div hx-target="this" hx-swap="outerHTML">
+  {% include 'item.html' with context %}
+</div>
+{% endblock %}
